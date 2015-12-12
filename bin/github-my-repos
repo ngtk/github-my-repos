@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "github_my_repos"
+
+GitHubMyRepos::CLI.new.github_my_repos
